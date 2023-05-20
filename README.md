@@ -51,4 +51,20 @@ Foi definido os parâmentros de ajuste de contraste com:
 O ajuste de contraste permite aumentar ou diminuir a diferença entre os valores de intensidade dos pixels na imagem, resultando em uma imagem mais vibrante e com maior variação de tons de cinza.
 A função **cv2.convertScaleAbs()** aplica uma transformação linear na imagem, multiplicando cada pixel pelo fator _alpha_ e adicionando o valor _beta_.
 O resultado é convertido para o tipo **uint8** usando a função **cv2.convertScaleAbs()**.
-  
+
+
+## Filtro para Girar a imagem em 90 graus
+Para rotacionar a imagem em 90 graus utilizando o método **rotate(angle)** da classe **image**, onde **angle** é o ângulo de rotação (-90).
+A rotação de uma imagem pode ser útil para ajustar a orientação da imagem de acordo com as necessidades do projeto ou para realizar transformações estéticas nas imagens.
+
+
+## Filtro para inverter a imagem (horizontal/vertical)
+Após carregar a imagem, é realizada a inversão horizontal da imagem utilizando o método **transpose()** da classe _image_, passando o parâmetro **image.FLIP_LEFT_RIGHT**. 
+E para a inversão vertical, se passa como parâmetro **image.FLIP_TOP_BOTTOM**.
+
+
+
+
+
+
+
